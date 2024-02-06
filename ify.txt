@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="NERVOUS_RECORDS__logo-removebg-preview.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="js.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+    <title>Nervous Records</title>
+    <style>
+        body{
+    background-color: rgb(10, 9, 9);
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 600px;
+}
+
+legend{
+    color:white;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+
+
+
+#data1{
+    color:white;
+    font-family: 'Cinzel', serif;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+
+#data2{
+    color:white;
+    font-family: 'Cinzel', serif;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top: 20px;
+    font-size: 20px;
+    position: absolute;
+}
+
+
+
+#dataa2{
+    color:white;
+    font-family: 'Cinzel', serif;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top: 70px;
+    font-size: 20px;
+    position: absolute;
+}
+
+
+
+#data3{
+    color:white;
+    font-family: 'Cinzel', serif;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top: 60px;
+    font-size: 20px;
+    position: absolute;
+}
+th
+
+
+
+#data4{
+    color:white;
+    font-family: 'Cinzel', serif;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top: 90px;
+    font-size: 20px;
+    position: absolute;
+}
+
+
+#data5{
+    color:white;
+    font-family: 'Cinzel', serif;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top:10px;
+    font-size: 20px;
+    position: absolute;
+}
+
+
+#data6{
+    color:white;
+    font-family: 'Cinzel', serif;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top:30px;
+    font-size: 20px;
+    position: absolute;
+}
+
+
+#data7{
+    color:white;
+    font-family: 'Cinzel', serif;
+    margin-left: 10px;
+    font-weight: lighter;
+    margin-top:53px;
+    font-size: 20px;
+    position: absolute;
+}
+
+
+
+#data8{
+    color:white;
+    font-family: 'Cinzel', serif;
+    margin-left: -160px;
+    font-weight: lighter;
+    margin-top:100px;
+    font-size: 20px;
+    position: absolute;
+}
+fieldset{
+    height: 700px;
+    margin-left: 400px;
+    width: 600px;
+    margin-top: 20px;
+
+}
+
+#box1{
+    margin-top: 1px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+
+#box2{
+    margin-top: 20px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+#box3{
+    margin-top:70px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+#box4{
+    margin-top:60px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+
+#box5{
+    margin-top:10px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+#box6{
+    margin-top:20px;
+    margin-left: 250px;
+    position: absolute;
+}
+
+
+#box7{
+    margin-top:150px;
+    margin-left: 29 0px;
+    position: absolute;
+}
+
+
+#f{
+    margin-top: 95px;
+    margin-left: 80px;
+}
+
+#m{
+    margin-top: -32px;
+    position: absolute;
+    margin-left: 160px;
+}
+
+
+#box5{
+    transition:width 0.4s ease-in-out;
+    width:80px;
+
+}
+
+#box5:focus{
+  
+	width:300px;}
+
+
+    
+
+ </style>
+    
+</head>
+<body>
+
+    <img src="NERVOUS_RECORDS__logo-removebg-preview.png" class="logo">
+   
+    <fieldset>
+        <legend> Sign Up </legend>
+        <main style="margin-top: 50px;">
+        <label id="data1">Name</label> 
+        <input type="text" id="box1" onfocus="draft()"><br>
+        <!---->
+        <label id="data2">Username</label>
+        <input type="text" id="box2" onfocus="draft()">
+        <!---->
+        <label id="dataa2">E-Mail</label>
+        <input type="email" id="box3" placeholder="exemple2@gmail.com"><br>
+                <!---->
+     
+                        <!---->
+        
+
+        <label id="data4"> Genre:</label>
+    <input type="radio"   id="f"> <p style="color: white; font-family: 'Cinzel', serif; margin-top: -20px; margin-left: 100px;"> Female</p>
+    <input type="radio"   id="m"><p style="color: white; font-family: 'Cinzel', serif; margin-top: -35px; margin-left: 180px;"> Male </p>
+        <!---->
+        <label  id="data5">Telephone </label>
+        <input type="tel" id="box5" name="tel"> <br>
+                <!---->
+        <label  id="data6">Rate Us From Scale 1 to 10 </label><br>
+
+        <input type="range" id="box6">
+                <!---->
+        <label id="data7"> I am not a robot </label>
+        <input type="checkbox" style="margin-top: 60px;margin-left: 150px;">
+        <!---->
+       <!---- <input type="image" src="001-amateur-hour-apollo-theatre-harlem-1961-steve-schapiro-courtesy-of-faheyklein-gallery-los-angeles (.jpg"-->
+       <label id="data8"> Where Did you hear of us </label>
+       <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required  style="margin-top: 100px;position: absolute;margin-left: 55px;">
+       <!---->
+      
+        <!--input type="number" id="tentacles" name="tentacles" min="10" max="100" />-->
+        <label style="color: white; font-family: 'Cinzel', serif;margin-top: 150px;position: absolute;margin-left: -160px;font-size: 20px;"> Choose A time you want us to send you our newsletter</label>
+        <input type="time" id="box7" min="09:00" max="18:00" required />
+   <label id="data3">Password</label>
+        <input type="password"  size="10" maxlength="8" id="box4"> <br>
+
+       
+    </main>
+    </fieldset>

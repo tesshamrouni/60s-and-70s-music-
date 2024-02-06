@@ -1,0 +1,312 @@
+body{
+    background-color: rgb(10, 9, 9);
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 100px;
+    transform: rotate(10deg);
+
+}
+
+header{
+    border:none;
+    background: border-box rgb(10, 9, 9) ;
+
+    height: 120px;
+    width: 1515px;
+    margin-left: -10px;
+    margin-top: -10px;
+   
+
+}
+
+#dance {
+   
+    opacity: 0.5;
+    height: 10%;
+    background-image: url(final.jpg);
+    height: 600px;
+width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    margin-left: 10px;
+
+    animation: zoom-in-zoom-out 10s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+h2{
+    margin-top: -350px;
+    text-align: center;
+    font: 80px 'Cinzel', serif;
+
+}
+/*************/
+.dot{
+    
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    padding-left:   120px;
+    margin-top:-50px
+    ;}
+   
+
+.vincyl{
+    
+    margin-top:550px;
+    
+}
+
+.dot2{
+    width: 70px;
+    height: 70px;
+    margin-left: 550px;
+    margin-top: 66px;
+    position: absolute;
+}
+
+
+.pointer{
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+    margin-top: 40px;
+    position: relative;
+}
+
+
+.pointer1{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 80px;
+    position: relative;
+}
+
+
+#intro{
+    color:white;
+    text-decoration: none;
+    margin-top: 50px;
+    border: solid 3px ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 80px;
+    position: absolute;
+    font-family: 'Cinzel', serif;
+
+       font-size: 25px ;    
+}
+
+
+
+.artists{
+    margin-left: 700px;
+    position: relative;
+    margin-top: 50px;
+    position: absolute;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    text-decoration: none;
+    border: solid 3px ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+}
+.six{
+    color: white;
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    border: solid 3px;
+    border-top: none;
+    border-right: none;
+    border-left: none;  
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+
+.seven{
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 350px;
+    text-decoration: none;
+    border: solid 3px ;
+    border-top: none;
+
+    border-right: none;
+    border-left: none;
+    font-family: 'Cinzel', serif;
+    font-size: 25px ; 
+}
+
+
+.eight{
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 450px;
+    font-family: 'Cinzel', serif;
+    border-top: none;
+
+    border: solid 3px ;
+    border-right: none;
+    border-left: none;
+       font-size: 25px ; 
+
+}
+
+
+.nine{
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 550px;
+    font-family: 'Cinzel', serif;
+
+       font-size: 25px ; 
+}
+
+
+
+.log{
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 550px;
+    text-decoration: none;
+    border: solid 3px ;
+    border-top: none;
+
+    border-right: none;
+    border-left: none;
+    font-family: 'Cinzel', serif;
+
+    font-size: 25px ; 
+}
+
+
+
+
+.sign{
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    margin-left :850px;
+    font-family: 'Cinzel', serif;
+    border-top: none;
+    text-decoration: none;
+    border: solid 3px ;
+    border-top: none;
+
+    border-right: none;
+    border-left: none;
+    font-size: 25px ; 
+}
+
+
+
+
+table{
+   
+    table-layout: fixed;
+    border-collapse: collapse;
+    height: 200px;
+    width: 1000px;
+    margin-left: 250px;
+    margin-top: 550px;
+}
+
+tr{
+    border: solid;
+    color: white;
+   
+}
+
+
+td{
+    border: solid;
+    color: white   ;
+
+}
+
+th{
+    border: solid;
+
+}
+
+mark{
+    background-color: beige;
+}
+
+#source{
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    height: 100px;
+}
+
+
+.hit{
+    color: #3f1d14;
+    font-family: 'Cinzel', serif;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 500px;
+    text-shadow:    1px 1px 2px wheat ;
+}
+iframe{
+    height: 1000px;
+    width:1000px;
+    margin-top: 200px;
+    margin-left: 250px;
+    border:solid;
+    border-style:inset;
+    border-color: beige;
+    border-width: 5px;
+    box-shadow: 20px;
+    box-shadow: 12px 12px 2px 1px #3c3537;
+}
+
+
+footer{
+    
+    margin-bottom:20%;
+    margin-top: 100px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+h6{
+    text-align:center;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Cinzel', serif;
+
+}

@@ -1,0 +1,512 @@
+.dance{
+    opacity: 1;
+    height: 10%;
+    opacity: 0.5;
+    margin-left: -10px;
+
+animation: zoom-in-zoom-out 10s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.3, 1.3);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+
+body{
+    background-color: rgb(10, 9, 9);
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+header{
+    border:none;
+    background-color: rgb(10, 9, 9);
+    height: 120px;
+    width: 1515px;
+    margin-left: -10px;
+    margin-top: -10px;
+   
+
+}
+
+h2{
+    font-family: 'Cinzel', serif;
+    
+    font-size: 80px;
+    margin-top: -350px;
+    text-align: center;
+}
+/*************/
+.dot{
+    
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    padding-left:   120px;
+    margin-top:-50px
+    ;}
+   
+
+.vincyl{
+    
+    margin-top:550px;
+    
+}
+
+.dot2{
+    width: 70px;
+    height: 70px;
+    margin-left: 550px;
+    margin-top: 66px;
+    position: absolute;
+}
+
+
+.pointer{
+    height: 80px;
+    width: 80px;
+    margin-left: 80px;
+    margin-top: 40px;
+    position: relative;
+}
+
+
+.pointer1{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 80px;
+    position: relative;
+}
+
+
+#intro{
+    color:white;
+    text-decoration: none;
+    font-weight: lighter;
+    
+    margin-top: 50px;
+    border: solid 3px ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 80px;
+    position: absolute;
+    
+    font-family: 'Cinzel', serif;
+
+       font-size: 25px ;    
+}
+
+.six{
+    color: white;
+
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    border: solid 3px;
+    border-top: none;
+    border-right: none;
+    border-left: none;  
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+
+.seven{
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 350px;
+    text-decoration: none;
+    border: solid 3px ;
+    border-top: none;
+
+    border-right: none;
+    border-left: none;
+    font-family: 'Cinzel', serif;
+    font-size: 25px ; 
+}
+
+
+.eight{
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 450px;
+    font-family: 'Cinzel', serif;
+    border-top: none;
+
+    border: solid 3px ;
+    border-right: none;
+    border-left: none;
+       font-size: 25px ; 
+
+}
+
+
+.nine{
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 550px;
+    font-family: 'Cinzel', serif;
+
+       font-size: 25px ; 
+}
+
+
+
+.log{
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 550px;
+    text-decoration: none;
+    border: solid 3px ;
+    border-top: none;
+
+    border-right: none;
+    border-left: none;
+    font-family: 'Cinzel', serif;
+
+    font-size: 25px ; 
+}
+
+
+
+
+.sign{
+    color: white;
+    margin-top: 50px;
+    position: absolute;
+    margin-left :850px;
+    font-family: 'Cinzel', serif;
+    border-top: none;
+    text-decoration: none;
+    border: solid 3px ;
+    border-top: none;
+
+    border-right: none;
+    border-left: none;
+    font-size: 25px ; 
+}
+
+
+
+
+audio{
+    margin-left: 1100px;
+    margin-top: -120px;
+    position: absolute;
+
+
+}
+
+
+.artists{
+    margin-left: 700px;
+    position: relative;
+    margin-top: 50px;
+    position: absolute;
+    color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    text-decoration: none;
+    border: solid 3px ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+}
+
+
+
+.review{
+    margin-top:380px;
+    padding-top: 150px;
+
+    height: 1800px;
+    margin-left: 150px;
+    width: 900px;
+    background-color: #1d1d1d;
+    border: none;
+    position: relative;
+
+}
+
+
+
+
+#desc{
+    font-family: 'Cinzel', serif;
+    color: #e8aa30;
+    margin-top: -100px;
+    padding-left: 50px;
+    width: 800px;
+    position:absolute;
+    font-size: 35px;
+
+}
+
+
+#talk{
+    font-family: 'Cinzel', serif;
+    color: white;
+    padding-top: 30px;
+   font-size: 20px;
+   line-height: 30px;
+    padding-left: 53px;
+    animation-name: light;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+   
+   
+}
+
+@keyframes light {
+    from{
+        opacity: 0;
+        color: aliceblue;
+    }
+    to{
+        opacity: 1;
+       
+    }}
+
+
+
+#talk2{
+    font-family: 'Cinzel', serif;
+    color: white;
+    padding-top: -20px;
+   font-size: 20px;
+   line-height: 30px;
+
+    padding-left: 20px;
+  
+    animation-name: light;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+   
+   
+}
+
+
+.gif{
+    height: 280px;
+    width: 280px;
+    margin-left: 300px;
+}
+
+
+
+
+.live{
+    margin-left: 150px;
+}
+
+aside{
+    
+        margin-left: 1090px;
+        width: 350px;
+        background-color: #3c3537;
+        border:none;
+        margin-top: -1950px;
+        position: absolute;
+        height: 450px;
+    }
+
+
+    .aside1{
+    
+        margin-left: 1090px;
+        width: 350px;
+        background-color: #3c3537;
+        border:none;
+        margin-top: -1400px;
+        position: absolute;
+        height: 450px;
+    }
+
+
+    .aside2{
+    
+        margin-left: 1090px;
+        width: 350px;
+        background-color: #3c3537;
+        border:none;
+        margin-top: -850px;
+        position: absolute;
+        height: 450px;
+    }
+
+
+    
+    .aside3{
+    
+        margin-left: 1090px;
+        width: 350px;
+        background-color: #3c3537;
+        border:none;
+        margin-top: -310px;
+        position: absolute;
+        height: 450px;
+    }
+
+    .extra{
+        color: #e8aa30;
+        font-family: 'Cinzel', serif;
+        width:  320px;
+        font-size: 25px ; 
+        padding-left: 13px;
+
+    }
+
+
+
+    
+    #extra1{
+        color: white;
+        font-family: 'Cinzel', serif;
+
+        font-size: 18px ; 
+        padding-left: 20px;
+    }
+
+    .mini{
+        height: 200px;
+        width: 200px;
+        padding-left: 50px;
+    }
+
+
+
+    #extra2{
+        color: white;
+        font-family: 'Cinzel', serif;
+        font-weight: lighter;
+        font-size: 15px ; 
+        line-height: 20px;
+        padding-left: 20px;
+    }
+
+
+    #read{
+        color: white;
+        font-family: 'Cinzel', serif;
+        text-decoration: none;
+        padding-left: 20px;
+    }
+
+
+    #read:hover{
+        color: grey;
+    }
+
+
+
+
+footer{
+    margin-bottom: 20%;
+    margin-bottom:20%;
+    margin-top: 100px;
+    position: absolute;
+}
+
+h6{
+    text-align:center;
+    margin-left: 150px;
+    margin-top: -50px;
+    position: relative;
+    font-weight: lighter;
+    font-size: 15px;
+    color: white;
+    font-family: 'Cinzel', serif;
+
+}
+
+
+.DISCOGRAPHY{
+    border: none;
+    height: 330px;
+    width: 900px;
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: #1d1d1d;
+}
+
+
+
+#album1{
+    height: 200px;
+        width: 200px;
+        padding-left: 50px;
+        margin-top: -20px;
+        position: absolute;
+}
+
+.cap1{
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin-top: 190px;
+    text-decoration: none;
+    padding-left: 90px;
+    position: absolute;
+    font-weight: lighter;
+}
+.cap2{
+    color: white;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    margin-top: 190px;
+    padding-left: 330px;
+    position: absolute;
+    font-weight: lighter;
+}
+
+
+.cap3{
+    color: white;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    margin-top: 190px;
+    padding-left: 550px;
+    position: absolute;
+    font-weight: lighter;
+}
+#album2{
+    height: 200px;
+    width: 200px;
+    padding-left: 300px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+
+
+#album3{
+    height: 200px;
+    width: 200px;
+    padding-left: 550px;
+    margin-top: -20px;
+    position: absolute;
+}
